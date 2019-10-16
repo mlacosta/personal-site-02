@@ -199,6 +199,7 @@ label{
   height:100vh;
   width: 100%;
   background-image: url(../Images/bkg.png);
+
   background-size: cover;
   vertical-align: middle;
   max-width: none;
@@ -227,6 +228,9 @@ label{
   position: relative;
   margin-left: 1.5em;
   margin-top: -5%;
+  /*background-color: rgba(0,0,0,.6);
+  border-radius:20px;
+  padding: 2em;*/
 }
 
 
@@ -236,7 +240,11 @@ h1.name{
   font-weight: bold;
   font-size: 5em;
   margin: 0;
-  padding-bottom: .3em;
+  margin-bottom: .3em;
+
+  /*background-color: rgba(0,0,0,.6);
+  border-radius:20px;*/
+
 
 }
 
@@ -247,6 +255,9 @@ h2.profession{
   font-weight: lighter;
   margin: 0;
   padding: 0;
+  /*background-color: rgba(0,0,0,.6);
+  border-radius:20px;
+  max-width: 450px;*/
 
 }
 
