@@ -440,10 +440,12 @@ div.about-textbox{
   width: auto;
 }
 
+
+
 .skill-container i{
 
   color:#0cd6c6;
-  font-size: 2.5em;
+  font-size: 2em;
   padding-bottom: .5em;
 
 }
@@ -451,6 +453,12 @@ div.about-textbox{
 .skill-container p{
 
   font-size: .9em;
+
+}
+
+#skill-info{
+  max-width: 30em;
+  padding: 0 1.5em;
 }
 
 .skill-container strong{
@@ -467,11 +475,8 @@ div.about-textbox{
 
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  grid-column-gap: 2em;
+  grid-gap: 2em;
 
-  text-align: center;
-
-  grid-row-gap: 20em;
 
 }
 
@@ -482,7 +487,23 @@ div.about-textbox{
 
   text-align: center;
 
-  grid-row-gap: 20em;
+  grid-gap: 2em;
+
+}
+
+@media only screen and (max-width: 1060px) {
+
+  .skills .second-box{
+
+    grid-template-columns: 1fr;
+
+  }
+
+  .skills .third-box{
+
+    grid-template-columns: 1fr;
+
+  }
 
 }
 
@@ -490,4 +511,32 @@ div.about-textbox{
   font-size: .9em;
   list-style-type: none;
   padding: .3em 0;
+}
+
+/***Portfolio***/
+
+.portfolio{
+
+  position: relative;
+  display: block;
+  overflow: visible;
+  margin: 0 auto;
+  width: auto;
+
+
+}
+
+
+.title-portfolio{
+
+
+  font-weight: lighter;
+  font-size: 2em;
+  z-index: 10;
+  padding-top: 2em;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: #000;
+
 }
