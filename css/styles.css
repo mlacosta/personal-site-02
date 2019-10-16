@@ -307,13 +307,9 @@ div.buttons{
 
 }
 
-#designed-by{
-  position: absolute;
-  color: #dddedf;
-  left: 1%;
-  bottom: 2%;
-  font-weight: lighter;
-  font-size: .7em;
+.presentation img{
+  max-width: 500px;
+
 }
 
 /****about me*****/
