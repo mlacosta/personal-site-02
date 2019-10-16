@@ -1,0 +1,37 @@
+(Programming Languages): Embedded C, C++, Java, Python, Verilog, VHDL
+
+-----------------------------------------------------------------------------------
+Electronics
+compressed sensing, iamge processing, control systems, dsp, electronci instrumentation
+
+Altium Designer, LTSpice, NL5, Simulink, OpenCV, Matlab.
+
+-----------------------------------------------------------------------------------
+
+UI Design, Technical Writing
+
+LaTeX, Photoshop, Microsoft Office, Processing
+HTML5, CSS, JavaScript
+
+-----------------------------------------------------------------------------------
+Embedded Systems
+
+Arduino, ARM Microcontrollers, FPGA, System on Chips (SoC)
+
+STM32Cube, ST32 System Workwench, Xilinx Vivado Design Suite, Arduino IDE
+
+-----------------------------------------------------------------------------------
+Music Production, VST Development
+
+
+JUCE, Audacity, Ableton Live
+
+
+--------------------------------------------------------------------------------------------
+(Technologies)
+Neural Networks, Convolutional, Recurrent Nets (RNN), Genetics Algoritms,
+Fuzzy Logic, Clustering, Reinforcement Learning, Ensemble Learning, Control Systems
+Digital Signal Processing, Compressed Sensing.
+
+
+Matlab, Tensorflow, Keras, Sci-Kit, Numpy, Simulink
