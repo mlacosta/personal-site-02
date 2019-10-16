@@ -307,8 +307,13 @@ div.buttons{
 
 }
 
-.presentation img{
-  max-width: 500px;
+ .landing img{
+  max-width: 50vh;
+  width: auto;
+  height: auto;
+  display: block;
+  margin: auto;
+
 
 }
 
