@@ -575,6 +575,8 @@ div.about-textbox{
 
   margin-bottom: 2em;
   object-fit: cover;
+
+  width: 100%;
   max-height: 16em;
 }
 
