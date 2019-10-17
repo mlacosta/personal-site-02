@@ -574,6 +574,28 @@ div.about-textbox{
 .portfolio-img{
 
   margin-bottom: 2em;
+  object-fit: cover;
+  max-height: 16em;
+}
+
+@media only screen and (max-width: 1060px) {
+
+  .portfolio-wrapper{
+
+    grid-template-columns: repeat(2,1fr);
+
+  }
+
+}
+
+@media only screen and (max-width: 720px) {
+
+  .portfolio-wrapper{
+
+    grid-template-columns: 1fr;
+
+  }
+
 }
 
 footer{
