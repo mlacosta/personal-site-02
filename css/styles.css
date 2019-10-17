@@ -560,7 +560,7 @@ div.about-textbox{
   margin-right: auto;
   height: auto;
   width: auto;
-  grid-gap: 5em;
+  grid-gap: 2em;
   padding-top: 9em;
 
 }
@@ -582,5 +582,5 @@ footer{
   padding: 2em 0;
   color: #fff;
   font-weight: lighter;
-  font-size: .8em
+  font-size: .7em
 }
