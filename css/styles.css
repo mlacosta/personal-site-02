@@ -572,8 +572,14 @@ div.about-textbox{
   padding: 1em;
   border-radius: 1em;
   border-width: thin;
+  transition: transform 1s;
+  position: relative;
+  overflow: hidden;
 
 }
+
+
+
 
 .portfolio-item h2{
   padding-bottom: 1em;
@@ -581,6 +587,37 @@ div.about-textbox{
   font-weight: lighter;
   text-align: center;
 }
+
+.portfolio-item .content{
+  position: absolute;
+  left: 0;
+  top:0;
+  width: 100%;
+  height: 100%;
+  transition: 0.3s;
+
+}
+
+.portfolio-item .content p{
+  align-content: center;
+  justify-content: center;
+  padding: 40% 5%;
+  text-align: center;
+  color: white;
+  display: none;
+}
+
+.portfolio-item .content:hover{
+
+  background-color: rgba(0,0,0,.8);
+
+}
+
+.portfolio-item .content:hover p{
+  display: block;
+
+}
+
 
 .portfolio-img{
 
