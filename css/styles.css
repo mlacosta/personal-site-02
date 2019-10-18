@@ -33,12 +33,12 @@ img{
 /*top header*/
 header{
 
-  position: fixed;
+  position: absolute;
   right: 0;
   left: 0;
   z-index: 100;
   transition: top .5s;
-  background-color: rgba(0,0,0,.5);
+  //background-color: rgba(0,0,0,.5);
   margin: 0;
   padding-left: 2em;
 
@@ -432,17 +432,6 @@ div.about-textbox{
 
 }
 
-.skills .third-box{
-
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-
-  text-align: center;
-
-  grid-gap: 2em;
-
-}
-
 
 .skills .skill-items li{
   font-size: .9em;
@@ -450,6 +439,36 @@ div.about-textbox{
   padding: .3em 0;
 }
 
+.skills .skill-item{
+
+  position: relative;
+  padding: 4em;
+}
+.skills .content{
+
+  top:0;
+  left: 0;
+  position: absolute;
+  color: white;
+  width: 100%;
+  height: 100%;
+  transition: 0.3s;
+  overflow: hidden;
+  border-radius: 20px;
+
+}
+
+.skills .content .text{
+  display: none;
+}
+
+.skills .content:hover{
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.skills .content:hover .text{
+  display: block;
+}
 /***Portfolio***/
 
 .Portfolio{
@@ -626,11 +645,6 @@ footer{
 
   }
 
-  .skills .third-box{
-
-    grid-template-columns: 1fr;
-
-  }
 
   .about-me{
     padding: 0 0 2em;
