@@ -379,16 +379,12 @@ div.about-textbox{
 
 .skills .skill-container{
   margin-top: 9em;
-  display:grid;
   background-color: white;
-  grid-template-columns: 1fr;
-  padding: 3em 1em;
   text-align: center;
-  grid-row-gap: 3em;
   margin-left: auto;
   margin-right: auto;
   border-radius: 15px;
-  height: auto;
+  height: 100;
   width: auto;
 }
 
@@ -427,7 +423,7 @@ div.about-textbox{
 
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  grid-gap: 2em;
+  height: 40em;
 
 
 }
@@ -454,12 +450,13 @@ div.about-textbox{
   height: 100%;
   transition: 0.3s;
   overflow: hidden;
-  border-radius: 20px;
 
+  border-radius: 15px;
 }
 
 .skills .content .text{
   display: none;
+  padding: 2em 0 0;
 }
 
 .skills .content:hover{
@@ -642,6 +639,7 @@ footer{
   .skills .second-box{
 
     grid-template-columns: 1fr;
+    height: auto;
 
   }
 
