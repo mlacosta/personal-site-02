@@ -30,12 +30,12 @@ img{
 /*top header*/
 header{
 
-  position: fixed;
+  position: absolute;
   right: 0;
   left: 0;
   z-index: 100;
-  transition: top 0.3s;
-  background-color: rgba(0,0,0,.5);
+  transition: top .5s;
+  //background-color: rgba(0,0,0,.5);
   margin: 0;
   padding-left: 2em;
 
@@ -266,7 +266,7 @@ h2.profession{
 
 }
 
-div.buttons{
+.landing .buttons{
 
   padding-top: 7em;
   display:block;
@@ -278,10 +278,7 @@ div.buttons{
   text-decoration: none;
   color: #dddedf;
   border-style: solid;
-  padding-top: .6em;
-  padding-bottom: .6em;
-  padding-right: 1em;
-  padding-left: 1em;
+  padding: .6em 1em;
   border-radius: 7px;
   border-width: 2px;
   margin: 30px;
@@ -606,10 +603,31 @@ div.about-textbox{
 .portfolio-item .content p{
   align-content: center;
   justify-content: center;
-  padding: 40% 5%;
+  padding: 30% 5% 0;
   text-align: center;
   color: white;
   display: none;
+}
+
+.portfolio-item .content .buttons{
+  display: none;
+
+  margin: 0 ;
+
+}
+
+.portfolio-item .content .buttons .button{
+  display: block;
+  margin: 0 auto ;
+  text-align: center;
+  margin-top: 2em;
+  max-width: 10em;
+
+
+}
+
+.portfolio-item .content:hover .buttons{
+  display: block;
 }
 
 .portfolio-item .content:hover{
