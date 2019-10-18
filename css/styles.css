@@ -278,7 +278,7 @@ h2.profession{
   margin: 0 auto;
   width: auto;
   background-color: #f2f2f2;
-  padding: 0 10em 5em;
+  padding: 0 5% 5em;
 
 }
 
@@ -344,7 +344,7 @@ div.about-textbox{
   overflow: visible;
   margin: 0 auto;
   width: auto;
-  padding: 0 10em ;
+  padding: 0 5% ;
   background-color: #041017;
 }
 
@@ -357,11 +357,10 @@ div.about-textbox{
   display: flex;
   justify-items:center;
   align-items:center;
-  padding: 0 10%;
+  padding: 0 10% 5em;
   margin: 0;
   overflow: visible;
 
-  padding-bottom: 5em;
 }
 
 
@@ -460,7 +459,7 @@ div.about-textbox{
   overflow: visible;
   margin: 0 auto;
   width: auto;
-  padding: 0 10em ;
+  padding: 0 5% ;
 
 
 }
@@ -626,15 +625,6 @@ footer{
 
 
 
-  .Portfolio{
-    padding: 0;
-  }
-
-  .portfolio-wrapper{
-
-    grid-template-columns: 1fr;
-
-  }
 
   .skills .second-box{
 
@@ -653,6 +643,10 @@ footer{
   }
 
   .skills{
+    padding: 0;
+  }
+
+  .Portfolio{
     padding: 0;
   }
 
@@ -685,15 +679,20 @@ footer{
     display: block;
   }
 
+  .portfolio-wrapper{
+
+    grid-template-columns: 1fr;
+
+  }
 
 }
 
 @media only screen and (max-width: 701px) {
 
-  .landing .inner{
-    position: absolute;
-    top:13em;
+  .landing .presentation {
+    top:-6em;
   }
+
 
   .landing .inner h1,.inner h2{
     text-align: center;
@@ -712,11 +711,6 @@ footer{
 
   }
 
-  .landing .presentation{
-    padding-top: 10%;
-
-
-  }
 
 
 }
