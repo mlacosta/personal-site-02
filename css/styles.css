@@ -350,10 +350,9 @@ h2.profession{
   grid-template-columns: repeat(auto-fit,minmax(19rem,1fr));
   grid-gap:2em;
   justify-items:center;
-  align-items:center;
-  padding: 2% 10% 0 10%;
+  padding: 8em 20%;
   margin: 0;
-  overflow: visible;
+  overflow: hidden;
   background-color: #e7f2f2;
   padding-bottom: 2em;
 }
@@ -374,16 +373,14 @@ h2.profession{
 
 div .image-About{
 
-  padding-top: 9em;
+
   width: 300px;
 
 }
 
 div.about-textbox{
   margin: 0;
-  padding-right:  2em;
-  min-width: 300px;
-  max-width: 400px;
+  max-width: 25em;
 
 }
 
