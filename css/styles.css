@@ -132,7 +132,7 @@ label{
   height:100vh;
   width: 100%;
   //background-image: url(../Images/bg_04.jpg);
-  background-color: #0f7b83;
+  background-color: #2f243d;
   background-size: cover;
   vertical-align: middle;
   max-width: none;
@@ -204,7 +204,7 @@ h2.profession{
 
 .button{
   text-decoration: none;
-  color: #dddedf;
+  color: white;
   border-style: solid;
   padding: .6em 1em;
   border-radius: 7px;
@@ -238,7 +238,7 @@ h2.profession{
 
 .landing .social-media a{
 
-  color: #0cd6c6;
+  color: #00dbed;
 
 }
 
@@ -265,9 +265,9 @@ h2.profession{
   overflow: visible;
   margin: 0 auto;
   width: auto;
-  //background-color: #f2f2f2;
-  background-color: white;
-  padding: 0 5% 0;
+  background-color: #f2f2f2;
+  //background-color: white;
+  padding: 0 5% 2em;
 
 }
 
@@ -290,6 +290,9 @@ h2.profession{
   justify-items:center;
   margin: 3em 10% 5em;
   overflow: hidden;
+  background-color: white;
+  border-radius: 1em;
+  padding: 3em 0;
 
   /*background-color: white;
   border-color: rgb(190, 199, 205) ;
