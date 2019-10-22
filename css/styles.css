@@ -33,15 +33,14 @@ img{
 /*top header*/
 header{
 
-  position: absolute;
+  position: fixed;
   right: 0;
   left: 0;
   z-index: 100;
   transition: top .5s;
-  //background-color: rgba(0,0,0,.5);
+  background-color: black;
   margin: 0;
   padding-left: 2em;
-
 
 }
 
@@ -53,7 +52,7 @@ nav{
   align-items: center;
   margin: 0;
   padding: 0;
-  height: 4em;
+  height: 3em;
 
 
 }
@@ -72,20 +71,10 @@ label{
 }
 
 
-.logo-container{
-
-
-
-  border: 2px solid #00838e;
-  text-align: center;
-  transform:rotate(45deg);
-  padding: 5px 9px;
-}
 
 
 .logo{
 
-  transform: rotate(-45deg);
   vertical-align: middle;
 
   font-size: .8em;
@@ -102,6 +91,7 @@ label{
   justify-content: space-around;
   right: 0;
   position: absolute;
+  font-weight: lighter;
 
 }
 
@@ -123,17 +113,15 @@ label{
 
 .logo a{
   text-decoration: none;
-  color: #00838e;
+  color: #00dbed;
   font-weight: bold;
   font-size: 1.5em;
 }
 
 .logo a:hover{
-  color: #00dbed;
+  color: #9df8ff;
 
 }
-
-
 
 
 /*landing page*/
@@ -143,8 +131,8 @@ label{
   margin: auto;
   height:100vh;
   width: 100%;
-  background-image: url(../Images/bkg.png);
-
+  background-image: url(../Images/bg_04.jpg);
+  //background-color: #0f7b83;
   background-size: cover;
   vertical-align: middle;
   max-width: none;
@@ -277,18 +265,12 @@ h2.profession{
   overflow: visible;
   margin: 0 auto;
   width: auto;
-  background-color: #f2f2f2;
-  padding: 0 5% 5em;
+  //background-color: #f2f2f2;
+  background-color: white;
+  padding: 0 5% 0;
 
 }
 
-/*.circuit{
-  position: absolute;
-  top: 1em;
-  left: 5em;
-  width: 100px;
-  overflow: visible;
-}*/
 
 .title-about{
 
@@ -296,25 +278,24 @@ h2.profession{
   padding-top: 2em;
   font-weight: lighter;
   font-size: 2em;
-
 }
 
 .about-me .container{
 
   right: 0;
   left: 0;
-  padding: 4em 0;
   display: grid;
   grid-template-columns: repeat(2,1fr);
   grid-gap:2em;
   justify-items:center;
   margin: 3em 10% 5em;
   overflow: hidden;
-  background-color: white;
+
+  /*background-color: white;
   border-color: rgb(190, 199, 205) ;
   border-style: solid;
   border-radius: 1em;
-  border-width: thin;
+  border-width: thin;*/
 
 }
 
@@ -344,7 +325,7 @@ div.about-textbox{
   overflow: visible;
   margin: 0 auto;
   width: auto;
-  padding: 1em 5% ;
+  padding: 10em 5% ;
   background-color: #041017;
 
 }
@@ -374,7 +355,7 @@ div.about-textbox{
 .skills .skill-container{
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  
+
 
 }
 
