@@ -106,7 +106,7 @@ label{
   color: #dddedf;
 }
 
-.nav-list a:hover, .language a:hover{
+.nav-list a:hover, .language a:hover,.nav-list a:active, .language a:active{
     color: rgba(173, 255, 255, 1);
 }
 
@@ -398,7 +398,7 @@ div.about-textbox{
 
 
 
-.skill-item:hover {
+.skill-item:hover,.skill-item:active {
   transform: rotateY(180deg);
 }
 
@@ -555,17 +555,17 @@ div.about-textbox{
 
 }
 
-.portfolio-item .content:hover .buttons{
+.portfolio-item .content:hover .buttons,.portfolio-item .content:active .buttons{
   display: block;
 }
 
-.portfolio-item .content:hover{
+.portfolio-item .content:hover,.portfolio-item .content:active{
 
   background-color: rgba(0,0,0,.8);
 
 }
 
-.portfolio-item .content:hover p{
+.portfolio-item .content:hover p,.portfolio-item .content:active p{
   display: block;
 
 }
