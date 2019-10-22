@@ -344,8 +344,9 @@ div.about-textbox{
   overflow: visible;
   margin: 0 auto;
   width: auto;
-  padding: 0 5% ;
+  padding: 1em 5% ;
   background-color: #041017;
+
 }
 
 
@@ -354,12 +355,13 @@ div.about-textbox{
   top:0;
   right: 0;
   left: 0;
-  display: flex;
+  display: block;
   justify-items:center;
   align-items:center;
   padding: 0 10% 5em;
   margin: 0;
   overflow: visible;
+
 
 }
 
@@ -384,7 +386,7 @@ div.about-textbox{
   margin-left: auto;
   margin-right: auto;
   border-radius: 15px;
-  height: 100;
+
   width: auto;
 }
 
@@ -393,7 +395,7 @@ div.about-textbox{
 .skill-container i{
 
   color:#0cd6c6;
-  font-size: 2em;
+  font-size: 3em;
   padding-bottom: .5em;
 
 }
@@ -423,49 +425,73 @@ div.about-textbox{
 
   display: grid;
   grid-template-columns: repeat(3,1fr);
+  grid-gap: 1em;
+  background-color:  #041017;;
+
   height: 40em;
+  border-radius: 15px;
 
-
-}
-
-
-.skills .skill-items li{
-  font-size: .9em;
-  list-style-type: none;
-  padding: .3em 0;
 }
 
 .skills .skill-item{
 
   position: relative;
-  padding: 4em;
-}
-.skills .content{
 
+  transition: transform 1.3s;
+  transform-style: preserve-3d;
+}
+
+
+
+.skill-item:hover {
+  transform: rotateY(180deg);
+}
+
+.skills .content, .skills .front{
+
+  border-radius: 15px;
+  backface-visibility: hidden;
+}
+
+
+.skills .content{
   top:0;
   left: 0;
   position: absolute;
+  padding: 10% 0;
   color: white;
   width: 100%;
   height: 100%;
   transition: 0.3s;
   overflow: hidden;
-
   border-radius: 15px;
+  background-color: gray;
+  transform: rotateY(180deg);
+
 }
 
+.skills .front{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  border-style: solid;
+  border-color: gray;
+  border-width: thin;
+}
+
+
+
+
 .skills .content .text{
-  display: none;
+  display: inline;
   padding: 2em 0 0;
 }
 
-.skills .content:hover{
-  background-color: rgba(0, 0, 0, 0.8);
-}
 
-.skills .content:hover .text{
-  display: block;
-}
 /***Portfolio***/
 
 .Portfolio{
@@ -636,12 +662,7 @@ footer{
 
   }
 
-  .skills .second-box{
 
-    grid-template-columns: 1fr;
-    height: auto;
-
-  }
 
 
   .about-me{
@@ -649,8 +670,16 @@ footer{
   }
 
   .skills{
-    padding: 0;
+    padding: 1em 0 ;
   }
+
+  .skills .second-box{
+
+    grid-template-columns: 2fr;
+
+
+  }
+
 
   #skill-info{
     max-width: 60em;
