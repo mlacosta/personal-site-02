@@ -352,15 +352,7 @@ div.about-textbox{
 
 
 .skills .inner{
-  top:0;
-  right: 0;
-  left: 0;
-  display: block;
-  justify-items:center;
-  align-items:center;
-  padding: 0 10% 5em;
-  margin: 0;
-  overflow: visible;
+
 
 
 }
@@ -380,14 +372,10 @@ div.about-textbox{
 }
 
 .skills .skill-container{
-  margin-top: 9em;
-  background-color: white;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 15px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  
 
-  width: auto;
 }
 
 
@@ -406,10 +394,7 @@ div.about-textbox{
 
 }
 
-#skill-info{
-  max-width: 30em;
-  padding: 0 1.5em;
-}
+
 
 .skill-container strong{
 
@@ -417,21 +402,10 @@ div.about-textbox{
 }
 
 .skill-container h2{
-  padding-bottom: 1em;
-  font-size: 1.3em;
-}
-
-.skills .second-box{
-
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
-  grid-gap: 1em;
-  background-color:  #041017;;
-
-  height: 40em;
-  border-radius: 15px;
 
 }
+
+
 
 .skills .skill-item{
 
@@ -484,12 +458,6 @@ div.about-textbox{
 }
 
 
-
-
-.skills .content .text{
-  display: inline;
-  padding: 2em 0 0;
-}
 
 
 /***Portfolio***/
@@ -673,12 +641,6 @@ footer{
     padding: 1em 0 ;
   }
 
-  .skills .second-box{
-
-    grid-template-columns: 2fr;
-
-
-  }
 
 
   #skill-info{
@@ -724,6 +686,8 @@ footer{
     grid-template-columns: 1fr;
 
   }
+
+
 
 }
 
