@@ -132,7 +132,7 @@ label{
   height:100vh;
   width: 100%;
   background-color: #2f243d;
-  background-image: url(../Images/bg_06.png);
+  background-image: url(../Images/port_03.jpg);
 
   background-size: cover;
   vertical-align: middle;
@@ -633,6 +633,10 @@ footer{
 
   #toggle:checked + .nav-list{
     display: block;
+    position: absolute;
+    left:  0;
+
+
   }
 
   .portfolio-wrapper{
