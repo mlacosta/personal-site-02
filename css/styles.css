@@ -379,7 +379,9 @@ div.about-textbox{
   display: flex;
 
   font-size: 1em;
-}
+  border-radius: 20px 20px 0 0;
+
+  }
 
 .skills .tabs a{
 
@@ -392,6 +394,7 @@ div.about-textbox{
 
 .skills .active{
   background-color: #2f243d;
+  border-radius: 20px 20px 0 0;
 }
 
 .skills .tabs-container{
@@ -403,6 +406,35 @@ div.about-textbox{
 .skills .tabs-container article{
   padding: 2em;
   text-align: justify;
+
+}
+
+.skills .languages{
+  background-color: white;
+  margin:3em 10%;
+
+}
+
+.skills .languages h2{
+  background-color: #180c28;
+  text-align: center;
+  color: white;
+  font-weight:lighter;
+  padding: .5em 0;
+}
+
+.skills .languages span{
+  background-color: white;
+  display:grid;
+  grid-template-columns: repeat(6,1fr);
+
+
+}
+
+.skills .languages span img{
+  max-width: 150px;
+  margin:auto;
+  width: auto;
 
 }
 
