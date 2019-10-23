@@ -277,7 +277,7 @@ h2.profession{
   width: auto;
   background-color: #f2f2f2;
   //background-color: white;
-  padding: 0 5% 2em;
+  padding: 0 5% .01em;
 
 }
 
@@ -303,6 +303,7 @@ h2.profession{
   background-color: white;
   border-radius: 1em;
   padding: 3em 0;
+  box-shadow: 2px 2px 5px grey;
 
   /*background-color: white;
   border-color: rgb(190, 199, 205) ;
@@ -339,7 +340,7 @@ div.about-textbox{
   margin: 0 auto;
   width: auto;
   padding: 10em 5% ;
-  background-color: #041017;
+  background-color: #ebebeb
 
 
 }
@@ -362,7 +363,7 @@ div.about-textbox{
   left: 0;
   right: 0;
   text-align: center;
-  color: #fff;
+  color: #000;
 
 }
 
@@ -370,6 +371,9 @@ div.about-textbox{
 
   top:10em;
   margin: 0 10%;
+  box-shadow: 2px 2px 5px grey;
+  border-radius: 20px 20px 0 0;
+
 }
 
 .skills .tabs{
@@ -405,13 +409,20 @@ div.about-textbox{
 
 .skills .tabs-container article{
   padding: 2em;
-  text-align: justify;
+  text-align: center;
 
+}
+
+.skills .tabs-container article img{
+  width: 10%;
+  padding: 0 1em;
+  margin: auto;
 }
 
 .skills .languages{
   background-color: white;
   margin:3em 10%;
+  box-shadow: 2px 2px 5px grey;
 
 }
 
@@ -432,9 +443,9 @@ div.about-textbox{
 }
 
 .skills .languages span img{
-  max-width: 150px;
-  margin:auto;
   width: auto;
+  margin:auto;
+  padding: 3em;
 
 }
 
@@ -449,6 +460,7 @@ div.about-textbox{
   margin: 0 auto;
   width: auto;
   padding: 0 5% ;
+  background-color: #f2f2f2;
 
 
 }
@@ -504,6 +516,8 @@ div.about-textbox{
   transition: transform 1s;
   position: relative;
   overflow: hidden;
+  box-shadow: 1px 1px 5px grey;
+  background-color: white;
 
 }
 
@@ -639,7 +653,15 @@ footer{
     flex-basis: 0;
     flex-grow: 1;
   }
+
+  .skills .languages span img{
+
+    padding: 0;
+
+  }
 }
+
+
 
 @media only screen and (max-width: 940px) {
 
