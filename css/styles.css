@@ -331,6 +331,7 @@ div.about-textbox{
   padding: 10em 5% ;
   background-color: #041017;
 
+
 }
 
 
@@ -355,93 +356,45 @@ div.about-textbox{
 
 }
 
-.skills .skill-container{
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
+.skills .wrap{
 
-
+  top:10em;
+  margin: 0 10%;
 }
 
-
-
-.skill-container i{
-
-  color:#0cd6c6;
-  font-size: 3em;
-  padding-bottom: .5em;
-
+.skills .tabs{
+  width: auto;
+  background-color: #180c28;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  font-size: 1em;
 }
 
-.skill-container p{
+.skills .tabs a{
 
-  font-size: .9em;
-
-}
-
-
-
-.skill-container strong{
-
-  color: #0cd6c6;
-}
-
-.skill-container h2{
-
-}
-
-
-
-.skills .skill-item{
-
-  position: relative;
-
-  transition: transform 1.3s;
-  transform-style: preserve-3d;
-}
-
-
-
-.skill-item:hover,.skill-item:active {
-  transform: rotateY(180deg);
-}
-
-.skills .content, .skills .front{
-
-  border-radius: 15px;
-  backface-visibility: hidden;
-}
-
-
-.skills .content{
-  top:0;
-  left: 0;
-  position: absolute;
-  padding: 10% 0;
   color: white;
-  width: 100%;
-  height: 100%;
-  transition: 0.3s;
-  overflow: hidden;
-  border-radius: 15px;
-  background-color: gray;
-  transform: rotateY(180deg);
-
+  text-decoration: none;
+  display: block;
+  padding: 1em 0;
+  text-align: center;
 }
 
-.skills .front{
-  position: absolute;
-  top: 0;
-  left: 0;
+.skills .active{
+  background-color: #2f243d;
+}
+
+.skills .tabs-container{
   background-color: white;
   width: 100%;
-  height: 100%;
-  margin: 0;
-  border-style: solid;
-  border-color: gray;
-  border-width: thin;
+
 }
 
+.skills .tabs-container article{
+  padding: 2em;
+  text-align: justify;
 
+}
 
 
 /***Portfolio***/
@@ -638,6 +591,13 @@ footer{
 
 }
 
+@media only screen and (max-width: 978px) {
+  .skills ul.tabs li{
+    width: none;
+    flex-basis: 0;
+    flex-grow: 1;
+  }
+}
 
 @media only screen and (max-width: 940px) {
 
@@ -671,8 +631,6 @@ footer{
 
   }
 
-
-
 }
 
 @media only screen and (max-width: 701px) {
@@ -697,6 +655,10 @@ footer{
   .landing .social-media{
     display: none;
 
+  }
+
+  .skills .tab-text{
+    display: none;
   }
 
 

@@ -5,6 +5,10 @@
   <!-- Add icon library -->
   <link rel="stylesheet" type="text/css" href="fontawesome-free-5.11.2-web/css/all.min.css">
 
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src ="Jquery/main.js"></script>
+
+  </script>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -127,150 +131,83 @@
 
       <h1 class="title-skills">Technical Skills</h1>
 
-      <!--div class="skill-container">
+      <div class="wrap">
+        <ul class="tabs">
 
-          <div class="skill-item">
+          <li><a href="#tab1"> <span class="fa fa-microchip"></span> <span class="tab-text">Embedded Systems</span> </a></li>
+          <li><a href="#tab2"> <span class="fa fa-robot"></span> <span class="tab-text">Machine Learning & AI</span> </a></li>
+          <li><a href="#tab4"> <span class="fa fa-code-branch"></span> <span class="tab-text">Electronics</span> </a></li>
+          <li><a href="#tab5"> <span class="fa fa-music"></span> <span class="tab-text">Music</span> </a></li>
+          <li><a href="#tab6"> <span class="fa fa-crop"></span> <span class="tab-text">Design, Writing</span> </a></li>
 
-            <div class="front">
+        </ul>
 
-              <h2>Embedded Systems</h2>
-              <i class="fa fa-microchip"></i><br>
-            </div>
+        <div class="tabs-container">
 
+          <article id="tab1" >
+            <strong>Technologies:</strong>
+            <br>
+            <br>
+            <p id="skill-info">ARM Microcontrollers, Arduino, FPGAs, Internet Of Things (IoT), System on Chips (SoC)</p>
+            <br>
+            <strong>Tools:</strong>
+            <br>
+            <br>
+            <p id="skill-info">Altera Quartus, Arduino IDE, FreeRTOS, LwIP, ST32 System Workwench, STM32Cube, Vivado High Level Synthesis (HLS), Xilinx Vivado Design Suite </p>
+          </article>
 
-            <div class="content">
+          <article id="tab2">
+            <strong>Technologies:</strong>
+            <br>
+            <br>
+            <P id="skill-info">Clustering, Convolutional Neural Networks, Data Visualization, Ensemble Learning, Fuzzy Logic, Genetic Algorithms, Recurrent Neural Networks, Reinforcement Learning,
+              Self-Organizing Maps (SoM), Unsupervised learning</P>
+            <br>
+            <strong>Tools:</strong>
+            <br>
+            <br>
+            <p id="skill-info">Keras, Matlab, Matplotlib, Numpy, Sci-Kit Learn, Tensorflow</p>
 
-                <strong>Technologies:</strong>
-                <br>
-                <br>
-                <p id="skill-info">ARM Microcontrollers, Arduino, FPGAs, Internet Of Things (IoT), System on Chips (SoC)</p>
-                <br>
-                <strong>Tools:</strong>
-                <br>
-                <br>
-                <p id="skill-info">Altera Quartus, Arduino IDE, FreeRTOS, LwIP, ST32 System Workwench, STM32Cube, Vivado High Level Synthesis (HLS), Xilinx Vivado Design Suite </p>
+          </article>
 
+          <!--article id="tab3">
+            <p id="skill-info">Embedded C, C++, Java, Python, Verilog, VHDL</p>
+          </article-->
 
-            </div>
+          <article id="tab4">
+            <strong>Technologies:</strong>
+            <br>
+            <br>
+            <P id="skill-info">Compressed Sensing, Control Systems, Digital Signal Processing, Electronic Instrumentation, Image Processing, Printed Circuit Board (PCB) Layout</P>
+            <br>
+            <strong>Tools:</strong>
+            <br>
+            <br>
+            <p id="skill-info">Altium Designer, Logic Analizers, LT Spice, Multimeters, NL5, OpenCV, Osciloscopes, Simulink </p>
+          </article>
 
-          </div>
+          <article id="tab5">
+            <p id="skill-info"> Music Composition, Pitch Correction, Remixing, VST Development</p>
+            <br>
+            <strong>Tools:</strong>
+            <br>
+            <br>
+            <p id="skill-info">Ableton Live, Audaciy, JUCE</p>
+          </article>
 
-          <div class="skill-item">
-
-            <div class="front">
-
-              <h2>Machine Learning & AI</h2>
-              <i class="fa fa-robot"></i><br>
-
-            </div>
-
-            <div class="content">
-
-                <strong>Technologies:</strong>
-                <br>
-                <br>
-                <P id="skill-info">Clustering, Convolutional Neural Networks, Data Visualization, Ensemble Learning, Fuzzy Logic, Genetic Algorithms, Recurrent Neural Networks, Reinforcement Learning,
-                  Self-Organizing Maps (SoM), Unsupervised learning</P>
-                <br>
-                <strong>Tools:</strong>
-                <br>
-                <br>
-                <p id="skill-info">Keras, Matlab, Matplotlib, Numpy, Sci-Kit Learn, Tensorflow</p>
-
-            </div>
-
-          </div>
-
-          <div class="skill-item">
-
-            <div class="front">
-              <h2>Electronics</h2>
-              <i class="fa fa-code-branch"></i><br>
-            </div>
-
-
-            <div class="content">
-
-                <strong>Technologies:</strong>
-                <br>
-                <br>
-                <P id="skill-info">Compressed Sensing, Control Systems, Digital Signal Processing, Electronic Instrumentation, Image Processing, Printed Circuit Board (PCB) Layout</P>
-                <br>
-                <strong>Tools:</strong>
-                <br>
-                <br>
-                <p id="skill-info">Altium Designer, Logic Analizers, LT Spice, Multimeters, NL5, OpenCV, Osciloscopes, Simulink </p>
-
-            </div>
-
-          </div>
-
-          <div class="skill-item">
-
-            <div class="front">
-
-              <h2>Music Production</h2>
-              <i class="fa fa-music"></i><br>
-
-            </div>
-
-            <div class="content">
-
-                <p id="skill-info"> Music Composition, Pitch Correction, Remixing, VST Development</p>
-                <br>
-                <strong>Tools:</strong>
-                <br>
-                <br>
-                <p id="skill-info">Ableton Live, Audaciy, JUCE</p>
-
-            </div>
-
-
-          </div>
-
-          <div class="skill-item">
-
-            <div class="front">
-              <h2>Programming Languages</h2>
-              <i class="fa fa-laptop-code"></i><br>
-            </div>
-
-              <div class="content">
-
-                  <p id="skill-info">Embedded C, C++, Java, Python, Verilog, VHDL</p>
-
-            </div>
-
-          </div>
-
-          <div class="skill-item">
-
-            <div class="front">
-              <h2>UI Design, Technical Writing</h2>
-              <i class="fas fa-crop"></i><br>
-            </div>
-
-            <div class="content">
-
-                <p id="skill-info"></p>
-                <br>
-                <strong>Tools:</strong>
-                <br>
-                <br>
-                <p id="skill-info">CSS, HTML5, JavaScript, LaTeX, Microsoft Office, Photoshop, Processing, QT Designer</p>
-
-
-
-
-            </div>
-
-
-          </div>
-
-
+          <article id="tab6">
+            <p id="skill-info"></p>
+            <br>
+            <strong>Tools:</strong>
+            <br>
+            <br>
+            <p id="skill-info">CSS, HTML5, JavaScript, LaTeX, Microsoft Office, Photoshop, Processing, QT Designer</p>
+          </article>
+        </div>
 
       </div>
-    -->
+
+
     </div>
 
   </section>
