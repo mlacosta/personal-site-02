@@ -447,6 +447,7 @@ div.about-textbox{
   margin:auto;
   padding: 3em;
 
+
 }
 
 .skills .img-container{
@@ -454,6 +455,55 @@ div.about-textbox{
 
 }
 
+.skills .img-container #Vivado{
+  width: 8%;
+
+}
+
+
+.skills .img-container #Xilinx{
+  width: 13%;
+
+}
+
+.skills .img-container #Keras{
+  width: 13%;
+
+}
+
+.skills .img-container #Matplotlib{
+  width: 13%;
+
+}
+
+.skills .img-container #Scikit{
+  width: 11%;
+
+}
+
+.skills .img-container #Numpy{
+  width: 13%;
+
+}
+
+.skills .img-container #Tensorflow{
+  width: 18%;
+
+}
+
+.skills .img-container #OpenCV{
+  width: 8%;
+
+}
+
+.skills .img-container #Ableton{
+  width: 15%;
+}
+
+.skills .img-container #Juce{
+  width: 12%;
+
+}
 
 /***Portfolio***/
 
