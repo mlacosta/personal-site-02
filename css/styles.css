@@ -355,7 +355,7 @@ div.about-textbox{
 
 
 .title-skills{
-  position: absolute;
+  //position: absolute;
   font-weight: lighter;
   font-size: 2em;
   z-index: 10;
@@ -364,6 +364,7 @@ div.about-textbox{
   right: 0;
   text-align: center;
   color: #000;
+  padding: 2em 0;
 
 }
 
