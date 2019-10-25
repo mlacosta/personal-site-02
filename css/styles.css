@@ -647,16 +647,140 @@ div.about-textbox{
   height: 14em;
 }
 
+.Experience{
+  padding: 4em 10%;
+  overflow: visible;
+  margin: 0 auto;
+  width: auto;
+}
 
+.Experience h1{
+  text-align: center;
+  font-weight: lighter;
+  font-size: 2em;
+  padding-bottom: 2em;
+}
+
+
+.Experience .timeline{
+  margin: auto;
+  position: relative;
+
+}
+
+.Experience .timeline::before{
+  content: '';
+  position: absolute;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  background: black;
+}
+
+
+.Experience .timeline ul{
+  margin: 0;
+  padding: 0;
+}
+
+.Experience .timeline ul li{
+  list-style: none;
+  position: relative;
+  width: 50%;
+  padding: .5em 2em ;
+}
+
+.Experience .timeline ul li:nth-child(odd){
+  left: 0;
+  text-align: right;
+  clear: both;
+}
+
+.Experience .timeline ul li:nth-child(even){
+  float: right;
+  text-align: left;
+  clear: both;
+}
+
+.Experience .content {
+  padding: 0 0 2em 0;
+}
+
+.Experience .timeline ul li:nth-child(odd)::before{
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: black;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px rgba(0,0,0,.5);
+  right: -6px;
+  top: 6px;
+}
+
+.Experience .timeline ul li:nth-child(even)::before{
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: black;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px rgba(0,0,0,.5);
+  left: -4px;
+  top: 6px;
+}
+
+.Experience .timeline ul li h2{
+  font-size: 1.2em
+
+}
+
+
+
+.Experience .timeline ul li p{
+  font-size: 1em
+  margin: 0;
+  padding: 1em 0;
+  font-weight: lighter;
+}
+
+.Experience .timeline ul li:nth-child(odd) h3{
+  position: absolute;
+  font-size: 1em;
+  margin: 0;
+  font-weight: lighter;
+  top: 0;
+  right: -145px;
+  padding: .45em .7em;
+  background: cyan;
+  border-radius: 10px;
+}
+
+.Experience .timeline ul li:nth-child(even) h3{
+  position: absolute;
+  font-size: 1em;
+  margin: 0;
+  font-weight: lighter;
+  top: 0;
+  left: -185px;
+  padding: .45em .7em;
+  background: cyan;
+  border-radius: 10px;
+}
 
 footer{
+
   background-color: rgb(37, 35, 34);
   text-align: center;
   padding: 2em 0;
   color: #fff;
   font-weight: lighter;
-  font-size: .7em
+  font-size: .7em;
+
 }
+
+
+
 
 /***Media Queries***/
 @media only screen and (max-width: 1490px) {
