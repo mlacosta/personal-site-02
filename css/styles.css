@@ -264,6 +264,7 @@ h2.profession{
   height: auto;
   display: block;
   margin: auto;
+
 }
 
 /****about me*****/
@@ -276,11 +277,16 @@ h2.profession{
   margin: 0 auto;
   width: auto;
   background-color: #fafafa;
-  //background-color: white;
   padding: 0 5% .01em;
 
 }
 
+.collage{
+  position:absolute;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+
+}
 
 .title-about{
 
@@ -305,11 +311,6 @@ h2.profession{
   padding: 3em 0;
   box-shadow: 2px 2px 5px grey;
 
-  /*background-color: white;
-  border-color: rgb(190, 199, 205) ;
-  border-style: solid;
-  border-radius: 1em;
-  border-width: thin;*/
 
 }
 
@@ -318,8 +319,9 @@ div .image-About{
 
 
   max-width: 300px;
+  /* /padding: 3em 0; */
   margin: 0 2em;
-
+  //transform: rotate(90deg);
 
 
 }
@@ -339,7 +341,7 @@ div.about-textbox{
   overflow: visible;
   margin: 0 auto;
   width: auto;
-  padding: 10em 5% ;
+  padding: 1em 5% ;
   background-color: white;
 
 
@@ -379,12 +381,12 @@ div.about-textbox{
 
 .skills .tabs{
   width: auto;
-  background-color: #180c28;
+  background-color: grey;
   list-style: none;
   display: flex;
 
   font-size: 1em;
-  border-radius: 20px 20px 0 0;
+  border-radius: 10px 10px 0 0;
 
   }
 
@@ -398,8 +400,8 @@ div.about-textbox{
 }
 
 .skills .active{
-  background-color: #2f243d;
-  border-radius: 20px 20px 0 0;
+  background-color: black;
+  border-radius: 10px 10px 0 0;
 }
 
 .skills .tabs-container{
@@ -428,7 +430,7 @@ div.about-textbox{
 }
 
 .skills .languages h2{
-  background-color: #180c28;
+  background-color: grey;
   text-align: center;
   color: white;
   font-weight:lighter;
@@ -551,6 +553,7 @@ div.about-textbox{
 .portfolio-wrapper{
   display: grid;
   grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(2,17em);
   margin-left: auto;
   margin-right: auto;
   height: auto;
