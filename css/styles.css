@@ -236,7 +236,7 @@ h2.profession{
   bottom: 1em;
   text-align: center;
   z-index: 100;
-  background-color: rgba(0, 0, 0, 0.5);
+
   border-radius: 10px;
 
 }
@@ -251,7 +251,6 @@ h2.profession{
 .landing .social-media a{
 
   color: #00dbed;
-  color: white
 
 }
 
@@ -772,6 +771,12 @@ div.about-textbox{
   padding: .45em .7em;
   background: cyan;
   border-radius: 10px;
+}
+
+.Experience #company{
+  font-weight: lighter;
+  font-size: 1em;
+  padding: 1em 0;
 }
 
 footer{
