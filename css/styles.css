@@ -236,6 +236,8 @@ h2.profession{
   bottom: 1em;
   text-align: center;
   z-index: 100;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
 
 }
 
@@ -249,6 +251,7 @@ h2.profession{
 .landing .social-media a{
 
   color: #00dbed;
+  color: white
 
 }
 
@@ -381,7 +384,7 @@ div.about-textbox{
 
 .skills .tabs{
   width: auto;
-  background-color: grey;
+  background-color: rgb(14, 153, 162);
   list-style: none;
   display: flex;
 
@@ -423,14 +426,13 @@ div.about-textbox{
 }
 
 .skills .languages{
-  background-color: white;
   margin:3em 10%;
   box-shadow: 2px 2px 5px grey;
 
 }
 
 .skills .languages h2{
-  background-color: grey;
+  background-color: rgb(14, 153, 162);
   text-align: center;
   color: white;
   font-weight:lighter;
