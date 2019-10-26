@@ -455,7 +455,7 @@ div.about-textbox{
 }
 
 .skills .img-container{
-  display: flex;
+  display: none;
 
 }
 
@@ -777,6 +777,24 @@ div.about-textbox{
   font-weight: lighter;
   font-size: 1em;
   padding: 1em 0;
+}
+
+.Education{
+
+  padding: 4em 10%;
+  overflow: visible;
+  margin: 0 auto;
+  width: auto;
+  background-color: #fafafa;
+}
+
+.Education h1{
+
+  text-align: center;
+  font-weight: lighter;
+  font-size: 2em;
+  padding-bottom: 2em;
+
 }
 
 footer{
