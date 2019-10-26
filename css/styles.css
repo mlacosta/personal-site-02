@@ -781,11 +781,13 @@ div.about-textbox{
 
 .Education{
 
-  padding: 4em 10%;
+
   overflow: visible;
   margin: 0 auto;
   width: auto;
   background-color: #fafafa;
+  position: relative;
+
 }
 
 .Education h1{
@@ -793,10 +795,33 @@ div.about-textbox{
   text-align: center;
   font-weight: lighter;
   font-size: 2em;
-  padding-bottom: 2em;
+
 
 }
 
+.Education .inner{
+    padding: 4em 10%;
+}
+
+.Education h2{
+
+  padding: 1em 0 .5em;
+
+
+
+}
+
+.Education h3{
+
+  padding-bottom: 1em;
+  font-weight: normal;
+
+}
+
+.Education .container{
+
+  padding: 1em 0;
+}
 footer{
 
   background-color: rgb(37, 35, 34);
