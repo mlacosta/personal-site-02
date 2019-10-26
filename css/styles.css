@@ -449,7 +449,7 @@ div.about-textbox{
 .skills .languages span img{
   width: auto;
   margin:auto;
-  padding: 3em;
+  padding: 20%;
 
 
 }
@@ -935,6 +935,17 @@ footer{
 
   .skills .tab-text{
     display: none;
+  }
+
+  .skills .languages span{
+
+    grid-template-columns: 1fr;
+  }
+
+  .skills .languages span img{
+
+    width: 50%;
+    padding: 2em;
   }
 
 
