@@ -318,7 +318,7 @@ div .image-About{
 
   max-width: 300px;
   /* /padding: 3em 0; */
-  margin: 0 2em;
+  margin: 2em 0em;
   transform: rotate(90deg);
 
 
@@ -503,7 +503,8 @@ div.about-textbox{
   overflow: visible;
   margin: 0 auto;
   width: auto;
-  padding: 0 5% ;
+  margin: 0 10%;
+
 }
 
 
@@ -519,7 +520,7 @@ div.about-textbox{
   justify-items:center;
   align-items:center;
   padding: 0 5%;
-  margin: 0 10%;
+
   padding-bottom: 5em;
   //background-color: rgba(255, 255, 255, 0.9);
 }
@@ -640,11 +641,10 @@ div.about-textbox{
 }
 
 .Experience{
-  padding: 4em 10%;
+  padding: 4em 15%;
   overflow: visible;
   margin: 0 auto;
   width: auto;
-  color: white
 }
 
 .Experience h1{
@@ -663,7 +663,9 @@ div.about-textbox{
 .Experience .timeline{
   margin: auto;
   position: relative;
-
+  background-color: rgba(255,255,255,0.9);
+  padding: 4em 0;
+  border-radius: 15px;
 }
 
 .Experience .timeline::before{
