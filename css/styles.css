@@ -779,7 +779,7 @@ div.about-textbox{
   margin: 0 auto;
   width: auto;
   position: relative;
-  color: white;
+
 }
 
 .Education h1{
@@ -787,12 +787,15 @@ div.about-textbox{
   text-align: center;
   font-weight: lighter;
   font-size: 2em;
-
-
+  color: white;
+  margin-bottom: 2%;
 }
 
 .Education .inner{
-    padding: 4em 15%;
+    padding: 2em 5%;
+    margin: 0 15% 5%;
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 15px;
 }
 
 .Education h2{
@@ -822,7 +825,7 @@ footer{
   color: #fff;
   font-weight: lighter;
   font-size: .7em;
-  
+
 
 }
 
