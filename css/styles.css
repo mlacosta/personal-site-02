@@ -20,6 +20,9 @@ body{
   font-size: 18px;
   vertical-align: baseline;
   overflow-x: hidden;
+  background-image: url(../Images/port_03.jpg);
+  background-attachment: fixed;
+  background-size:cover;
 }
 
 img{
@@ -131,8 +134,8 @@ label{
   margin: auto;
   height:100vh;
   width: 100%;
-  background-color: #000;
-  background-image: url(../Images/port_03.jpg);
+  //background-color: #000;
+
 
   background-size: cover;
   vertical-align: middle;
@@ -144,8 +147,8 @@ label{
 
 }
 
-.landing .color-mask{
-  position: absolute;
+.color-mask{
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -278,17 +281,10 @@ h2.profession{
   overflow: visible;
   margin: 0 auto;
   width: auto;
-  background-color: #fafafa;
   padding: 0 5% .01em;
 
 }
 
-.collage{
-  position:absolute;
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
-
-}
 
 .title-about{
 
@@ -296,6 +292,7 @@ h2.profession{
   padding-top: 2em;
   font-weight: lighter;
   font-size: 2em;
+  color: white;
 }
 
 .about-me .container{
@@ -308,11 +305,10 @@ h2.profession{
   justify-items:center;
   margin: 3em 10% 5em;
   overflow: hidden;
-  background-color: white;
   border-radius: 1em;
   padding: 3em 0;
   box-shadow: 2px 2px 5px grey;
-
+  background-color: rgba(255, 255, 255, 0.9);
 
 }
 
@@ -323,7 +319,7 @@ div .image-About{
   max-width: 300px;
   /* /padding: 3em 0; */
   margin: 0 2em;
-  //transform: rotate(90deg);
+  transform: rotate(90deg);
 
 
 }
@@ -344,22 +340,11 @@ div.about-textbox{
   margin: 0 auto;
   width: auto;
   padding: 1em 5% ;
-  background-color: white;
-
 
 }
-
-
-
-.skills .inner{
-
-
-
-}
-
 
 .title-skills{
-  //position: absolute;
+
   font-weight: lighter;
   font-size: 2em;
   z-index: 10;
@@ -367,7 +352,7 @@ div.about-textbox{
   left: 0;
   right: 0;
   text-align: center;
-  color: #000;
+  color: #fff;
   padding: 2em 0;
 
 }
@@ -519,9 +504,11 @@ div.about-textbox{
   margin: 0 auto;
   width: auto;
   padding: 0 5% ;
-  background-color: #fafafa;
+}
 
 
+.Portfolio h1{
+  color: white;
 }
 
 .Portfolio .inner{
@@ -531,10 +518,10 @@ div.about-textbox{
   display: flex;
   justify-items:center;
   align-items:center;
-  padding: 0 10%;
-  margin: 0;
+  padding: 0 5%;
+  margin: 0 10%;
   padding-bottom: 5em;
-
+  //background-color: rgba(255, 255, 255, 0.9);
 }
 
 .title-portfolio{
@@ -657,6 +644,7 @@ div.about-textbox{
   overflow: visible;
   margin: 0 auto;
   width: auto;
+  color: white
 }
 
 .Experience h1{
@@ -664,6 +652,11 @@ div.about-textbox{
   font-weight: lighter;
   font-size: 2em;
   padding-bottom: 2em;
+
+}
+.Experience #title{
+  color:white;
+  z-index: 10000;
 }
 
 
@@ -785,9 +778,8 @@ div.about-textbox{
   overflow: visible;
   margin: 0 auto;
   width: auto;
-  background-color: #fafafa;
   position: relative;
-
+  color: white;
 }
 
 .Education h1{
@@ -830,6 +822,7 @@ footer{
   color: #fff;
   font-weight: lighter;
   font-size: .7em;
+  
 
 }
 
